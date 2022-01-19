@@ -16,5 +16,8 @@ import { CoreModule } from './core/core.module';
   ],
   providers: [],
   bootstrap: [AppComponent], // bootstrapped entry component
+  entryComponents:[
+    // ModalComponent
+  ]
 })
 export class AppModule { }

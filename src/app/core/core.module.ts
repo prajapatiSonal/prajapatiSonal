@@ -5,6 +5,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MasterComponent } from './components/master/master.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { LoaderService } from './services/loader.service';
 
 
 
@@ -24,7 +25,11 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     FooterComponent,
     HeaderComponent,
     PageNotFoundComponent,
-    SideBarComponent
+    SideBarComponent,
+  ],
+  providers:[
+    LoaderService
+
   ]
 })
 export class CoreModule { }
